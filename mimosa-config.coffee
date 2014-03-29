@@ -12,5 +12,3 @@ exports.config =
     "coffeescript"
     "stylus"
   ]
-  // watch:
-  //   javascriptDir: "javascripts/app"
