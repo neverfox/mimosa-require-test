@@ -8,7 +8,7 @@ require
       jquery: 'jquery_noconflict'
     jquery_noconflict:
       jquery: 'jquery'
-  , ['example-view', 'config']
-  , (ExampleView, config) ->
+  , ['example-view']
+  , (ExampleView) ->
     view = new ExampleView()
     view.render('body')
